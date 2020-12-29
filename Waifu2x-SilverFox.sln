@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Waifu2x-SilverFox", "Waifu2x-SilverFox.vcxproj", "{6FE0A47F-D5DC-4914-AF9E-98F14D3742DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3C4499A-E358-447A-A9B5-C88928C80A0F}"
+	ProjectSection(SolutionItems) = preProject
+		src\gui.cpp = src\gui.cpp
+		src\utils.cpp = src\utils.cpp
+		src\utils.hpp = src\utils.hpp
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
